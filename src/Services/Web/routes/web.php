@@ -11,24 +11,6 @@
 |
 */
 
-Route::group(['prefix' => 'web'], function() {
 
-    // The controllers live in src/Services/Web/Http/Controllers
-    // Route::get('/', 'UserController@index');
-
-    Route::get('/', function() {
-        return view('web::welcome');
-    });
-
-});
-
-Route::group(['middleware' => 'web'], function() {
-
-    Route::get('/tasks','TaskController@index');
-    Route::get('/tasks/create','TaskController@create');
-    Route::post('/tasks/store','TaskController@store');
-    Route::get('/tasks/edit/{id}','TaskController@edit');
-    Route::put('/tasks/{id}/update','TaskController@update');
-    Route::delete('/tasks/{id}/delete','TaskController@destroy');
-
-});
+Route::get('new_ticket', 'TicketController@create');
+Route::post('new_ticket', 'TicketController@store');

@@ -1,10 +1,12 @@
 <?php
 
-namespace App\Domains\Http\Jobs;
+namespace App\Domains\Ticket\Jobs;
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Lucid\Foundation\Job;
+
+
+use Illuminate\Http\Request;
 
 class SendBackWithErrorMessageJob extends Job
 {
@@ -27,7 +29,7 @@ class SendBackWithErrorMessageJob extends Job
      * Execute the job.
      *
      * @param Request $request
-     * @return mixed
+     * @return $this|\Illuminate\Http\RedirectResponse
      */
     public function handle(Request $request)
     {

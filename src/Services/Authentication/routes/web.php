@@ -17,7 +17,7 @@ Route::group(['prefix' => 'authentication'], function() {
     // Route::get('/', 'UserController@index');
 
     Route::get('/', [ 'uses' => 'AuthController@index']);
-    Route::post('/authenticate',['uses' => 'AuthController@authenticate']);
+    Route::post('/',['uses' => 'AuthController@authenticate']);
     /*---------------------------------------  (Admin With Auth)  --------------------------------------------*/
 
     Route::group(['middleware'=>['auth.api:api']], function() {

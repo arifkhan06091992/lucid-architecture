@@ -14,17 +14,4 @@
 // Prefix: /api/authentication
 Route::group(['prefix' => 'authentication'], function() {
 
-    // The controllers live in src/Services/Authentication/Http/Controllers
-    // Route::get('/', 'UserController@index');
-
-    Route::post('login', 'ApiAuthController@login');
-
-    Route::group(['middleware' => 'auth.api:api'], function () {
-
-        Route::get('logout', 'ApiAuthController@logout');
-        Route::get('me', 'ApiAuthController@getAuthUser');
-
-    });
-
-
 });
