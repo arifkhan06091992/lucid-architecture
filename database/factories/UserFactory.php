@@ -13,7 +13,7 @@
  |
  */
 
- $factory->define(Framework\User::class, function (Faker $faker) {
+ $factory->define(\App\Data\User::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->unique()->safeEmail,

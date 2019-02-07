@@ -1,0 +1,343 @@
+
+#page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50000;
+    opacity: 0.7;
+    background: url('../../../frontend/developer/images/logo-loading-1.gif') 50% 40% no-repeat rgb(249,249,249);
+    /*background: url('../../../images/loading/default (2).gif') 50% 40% no-repeat rgb(249,249,249);*/
+}
+
+#ajaxLoader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50000;
+    opacity: 0.7;
+    display: none;
+    background: url('../../../images/loading/default (2).gif') 50% 40% no-repeat rgb(249,249,249);
+}
+
+
+.dataTables_processing{
+    position: fixed !important;
+    top: 0 !important;;
+    left: 0 !important;;
+    width: 100% !important;;
+    height: 100% !important;;
+    z-index: 50000 !important;
+    opacity: 0.7 !important;
+    background-size: 80px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;;
+    padding-top: 0px !important;;
+    padding-bottom: 0px !important;;
+    background: url('../../../frontend/developer/images/logo-loading-1.gif') 50% 40% no-repeat #fff !important;
+}
+
+/*------- Admin Theme--------*/
+
+
+.login_content h1:before {
+    background: #d01c68;
+}
+.login_content h1:after {
+    background: #d01c68;
+}
+.tile-stats h3 {
+    color: #d01c68;
+}
+.page-title .title_left h3 {
+    color: #d01c68;
+}
+
+.btn-primary {
+    background-color: #d01c68;
+    border-color: #d01c68;
+}
+.login_content form input[type=text]:focus, .login_content form input[type=email]:focus, .login_content form input[type=password]:focus {
+    -ms-box-shadow: 0 0 2px #d01c68 inset;
+    -o-box-shadow: 0 0 2px #d01c68 inset;
+    box-shadow: 0 0 2px #d01c68 inset;
+    border: 1px solid #d01c68;
+}
+.nav_menu {
+    background: #23a8d3;
+    border-bottom: 1px solid #23a8d3;
+}
+.nav li.current-page {
+    background: #23a8d3;
+}
+.nav.child_menu li.active, .nav.child_menu li:hover {
+    background-color: #23a8d3;
+}
+.nav li li.current-page a, .nav.child_menu li li a.active, .nav.child_menu li li a:hover {
+    color: #d01c68;
+}
+.x_title h2 {
+    color: #23a8d3;
+}
+.btn-success:hover {
+    background-color: #23a8d3;
+    border-color: #23a8d3;
+}
+.btn-primary:hover {
+    background-color: #d01c68;
+    border-color: #d01c68;
+}
+
+.login_content h1 {
+    color: #23a8d3;
+}
+
+/*
+.tile-stats h3 {
+    color: #23a8d3;
+}
+*/
+/* ---jQuery Error Messages---*/
+
+.tooltipster-default {
+    border: 2px solid #d01c68 !important;
+    background: #d01c68 !important;
+}
+
+.error-message,.error{color:#d01c68 !important;font-size: 14px !important;font-weight: 700;}
+.star_important {
+    color: #d01c68;
+    padding: 0px 0px 0px 2px;
+}
+
+
+
+.form-group label > i {color:#d01c68; vertical-align: top; margin: 2px 0 0 2px;}
+.form-group textarea.error,select.error, input.form-error, .form-error{border-color: #d01c68 !important;}
+.form-group input.error, input.form-error, .form-error{border-color: #d01c68;}
+.form-group label.error, div.error-message {color: #d01c68;font-size: 14px;}
+.select2-selection--single.error{border-color: #d01c68;}
+.important_red{color: #d01c68;}
+/* --------Password Tooltip--------*/
+.hide_div {
+    position: absolute;
+    top: -63px;
+    background: #d01c68;
+    border: 1px solid #d01c68;
+    font-size: 11px;
+    text-align: left;
+    padding: 4px 10px;
+    color: #fff;
+    display: none;
+    width: 180px;
+    z-index: 99;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    margin-left: 122px;
+    border-radius: 2px;
+    line-height: 13px;
+}
+.new_pass{ position: relative;}
+i.fa.fa-info-circle.hover_tooltip:hover .hide_div{  display: block;}
+
+
+.hide_div:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid #d01c68 10px;
+    bottom: -10px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 0;
+}
+
+
+/*----------Birthday Picker----------------*/
+
+
+.required{
+    color: #d01c68 !important;
+}
+
+.nav.side-menu>li>a {
+    margin-bottom: 6px;
+    padding-right: 30px;
+}
+.main_menu .fa {
+    height: 30px;
+    float: left;
+}
+.nav.side-menu>li>a>span{    position: absolute;
+    right: 7px;
+    top: 13px;}
+.nav.side-menu>li {
+    border-right: 5px solid transparent;
+}
+
+div#custom-datatable_wrapper div.dataTables_processing
+{
+    padding: 5px;
+}
+
+.active a span.fa {
+    text-align: right!important;
+    margin-right: 4px;
+    position: absolute;
+    right: 6px;
+    top: 7px;
+}
+.nav.child_menu>li>a {
+    color: rgba(255,255,255,.75);
+    font-size: 12px;
+    padding: 9px;
+    position: relative;    padding-right: 25px;
+}
+
+
+div#customer-databale_processing
+{
+    padding: 5px;
+}
+
+.dropdown-menu {
+    border: 1px solid #23a8d3;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-bottom:after {
+    border-top: 6px solid #23a8d3 !important;
+}
+
+.x_title_custom{
+    margin-bottom: 10px;
+    padding: 1px 5px 6px;
+}
+.x_title_custom h2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 5px 0 6px;
+    float: left;
+    display: block;
+    color: #23a8d3;
+}
+.select2-container {
+   width: 100% !important;
+}
+.product_color_add img {
+    width: 21px;
+}
+.product_color_add .save_contact_btn {
+    color: #fff;
+}
+.product_color_add .save_contact_btn {
+    width: 39px;
+    height: 32px;
+    border: 0px;
+    background: #d01c68;
+    border-radius: 4px;
+}
+.product_color .color_input {
+    width: 50px;
+    height: 32px;
+    border: 0px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.show_color_in_table{
+    width: 20px;
+    height: 22px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+a.to_register {
+    color: #23a8d3;
+    text-decoration: underline;
+}
+.dataTables_filter {
+   width: 100% !important;
+}
+.delete_icon img {
+    width: 14px;
+}
+.profile_img {
+    border-color: #d01c68;
+    border-style: solid;
+    border-width: 1px;
+}
+/*- Coupon Tooltip----------*/
+
+
+.hide_coupon_div {
+    position: absolute;
+    top: -90px;
+    background: #d01c68;
+    border: 1px solid #d01c68;
+    font-size: 11px;
+    text-align: left;
+    padding: 4px 10px;
+    color: #fff;
+    display: none;
+    width: 180px;
+    z-index: 99;
+    margin-left: -80px;
+    border-radius: 2px;
+    line-height: 13px;
+}
+
+i.fa.fa-info-circle.hover_tooltip:hover .hide_coupon_div {
+    display: block;
+}
+
+.hide_coupon_div:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid #d01c68 10px;
+    bottom: -10px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 0;
+}
+.resolution-help-text{
+    color: #23a8d3 !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    width: 100%;
+    float: left;
+}
+.login {
+    background: #792e73;
+}
+
+
+.exit-event-booking{
+    background-color: #d01c68;
+}
+.exit-event-booking i.fa.fa-times{
+    color: #fff;
+    font-size: 20px;
+}
+.page-title {
+    float: left;
+    height: 100%;
+}
+.fill_details_sec .Package_info_right .nice-select.small {
+    background: transparent;
+    color: #5d5d5d;
+    font-weight: 600;
+    border: 0;
+}
+.select2-selection__arrow {
+    height: 100% !important;
+}
+

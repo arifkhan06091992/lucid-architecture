@@ -1,0 +1,31 @@
+.organiser_sec img {
+    width: 183px;
+}
+.event_info {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.event-background-image {
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+.inner_banner_text {
+    padding: 0px 20px 0px 20px;
+}
+h4.event_booking_timeout_heading {
+    color: #23a8d3;
+    margin: 0px 0px 20px 0px;
+}
+.share_popup .modal-dialog {
+    width: 729px;
+    margin: 2% auto 0;
+}
+.credit_and_dabbit_checkout.pay-with-paypal {
+    width: 70%;
+    margin: 74px auto 0px auto;
+}
