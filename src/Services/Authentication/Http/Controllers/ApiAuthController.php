@@ -22,6 +22,6 @@ class ApiAuthController extends Controller
 
     public function getAuthUser(Request $request)
     {
-       
+
     }
 }
