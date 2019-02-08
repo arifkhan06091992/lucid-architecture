@@ -1,6 +1,6 @@
 @section('page_styles')
-    <link href="{{asset("backend/vendors/iCheck/skins/flat/green.css")}}" rel="stylesheet">
-    <link href="{{asset('backend/vendors/select2/dist/css/select2.css')}}" rel="stylesheet">
+    <link href="{{asset("public/backend/vendors/iCheck/skins/flat/green.css")}}" rel="stylesheet">
+    <link href="{{asset('public/backend/vendors/select2/dist/css/select2.css')}}" rel="stylesheet">
     <script src="{{asset('public/backend/vendors/echarts/dist/echarts.min.js')}}"></script>
 @stop
 @extends('web::layout.admin')
@@ -58,7 +58,7 @@
     </div>
 @stop
 @section('page_scripts')
-    <script src="{{asset("backend/vendors/iCheck/icheck.min.js")}}"></script>
-    <script src="{{asset("backend/vendors/select2/dist/js/select2.js")}}"></script>
-    <script src="{{asset('backend/developer/page/js/dashboard/dashboard.js') }}"></script>
+    <script src="{{asset("public/backend/vendors/iCheck/icheck.min.js")}}"></script>
+    <script src="{{asset("public/backend/vendors/select2/dist/js/select2.js")}}"></script>
+    <script src="{{asset('public/backend/developer/page/js/dashboard/dashboard.js') }}"></script>
 @stop

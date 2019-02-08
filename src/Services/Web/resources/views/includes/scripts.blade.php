@@ -1,10 +1,10 @@
 
 <!-- FastClick -->
-<script src="{{asset("backend/vendors/fastclick/lib/fastclick.js")}}"></script>
+<script src="{{asset("public/backend/vendors/fastclick/lib/fastclick.js")}}"></script>
 <!-- NProgress -->
-<script src="{{asset("backend/vendors/nprogress/nprogress.js")}}"></script>
+<script src="{{asset("public/backend/vendors/nprogress/nprogress.js")}}"></script>
 <!-- jQuery custom content scroller -->
-<script src="{{asset("backend/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js")}}"></script>
+<script src="{{asset("public/backend/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js")}}"></script>
 
 <!-- Custom Page Scripts -->
 <script>
@@ -15,7 +15,7 @@
 @yield('page_scripts')
 
 <!-- Custom Theme Scripts -->
-<script src="{{asset("backend/build/js/custom.min.js")}}"></script>
+<script src="{{asset("public/backend/build/js/custom.min.js")}}"></script>
 
 <script>
     $(".alert").delay(5000).fadeOut();

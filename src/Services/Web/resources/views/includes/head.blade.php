@@ -9,26 +9,26 @@
     <title>{{env('APP_NAME')}}</title>
 
     <!-- Bootstrap -->
-    <link href="{{asset("backend/vendors/bootstrap/dist/css/bootstrap.min.css")}}" rel="stylesheet">
+    <link href="{{asset("public/backend/vendors/bootstrap/dist/css/bootstrap.min.css")}}" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{asset("backend/vendors/font-awesome/css/font-awesome.min.css")}}" rel="stylesheet">
+    <link href="{{asset("public/backend/vendors/font-awesome/css/font-awesome.min.css")}}" rel="stylesheet">
     <!-- NProgress -->
-    <link href="{{asset("backend/vendors/nprogress/nprogress.css")}}" rel="stylesheet">
+    <link href="{{asset("public/backend/vendors/nprogress/nprogress.css")}}" rel="stylesheet">
 
     <!-- jQuery custom content scroller -->
-    <link href="{{asset("backend/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css")}}" rel="stylesheet"/>
+    <link href="{{asset("public/backend/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css")}}" rel="stylesheet"/>
 
     <!-- Custom Theme Style -->
-    <link href="{{asset("/backend/build/css/custom.min.css")}}" rel="stylesheet">
+    <link href="{{asset("public/backend/build/css/custom.min.css")}}" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="{{asset("/backend/developer/css/developer.css")}}" rel="stylesheet">
+    <link href="{{asset("public/backend/developer/css/developer.css")}}" rel="stylesheet">
     <!-- Custom Page Styles -->
 @yield('page_styles')
 
 <!-- jQuery -->
-    <script src="{{asset("backend/vendors/jquery/dist/jquery.min.js")}}"></script>
+    <script src="{{asset("public/backend/vendors/jquery/dist/jquery.min.js")}}"></script>
     <!-- Bootstrap -->
-    <script src="{{asset("backend/vendors/bootstrap/dist/js/bootstrap.min.js")}}"></script>
+    <script src="{{asset("public/backend/vendors/bootstrap/dist/js/bootstrap.min.js")}}"></script>
 
 </head>
