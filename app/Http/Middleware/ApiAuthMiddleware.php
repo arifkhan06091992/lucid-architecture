@@ -20,7 +20,7 @@ class ApiAuthMiddleware
         // Check if request Web
         if (!$request->ajax() && !$request->wantsJson())
         {
-            $request->headers->set('Authorization', 'Bearer ' . session('jwt_token'));
+            $request->headers->set('Authorization', 'Bearer ' . session('access_token'));
         }
 
         if (Auth::guard($guard)->guest())
@@ -31,6 +31,7 @@ class ApiAuthMiddleware
             }
             else
             {
+                session(['access_token' => '']);
                 return redirect()->guest('/');
             }
         }

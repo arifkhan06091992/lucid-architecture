@@ -11,18 +11,4 @@
 |
 */
 
-// Prefix: /api/web
-Route::group(['prefix' => 'web'], function() {
-
-    // The controllers live in src/Services/Web/Http/Controllers
-    // Route::get('/', 'UserController@index');
-
-    Route::get('/', function() {
-        return response()->json(['path' => '/api/web']);
-    });
-    
-    Route::middleware('auth:api')->get('/user', function (Request $request) {
-        return $request->user();
-    });
-
-});
+// Prefix: /api

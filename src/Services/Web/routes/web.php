@@ -11,6 +11,15 @@
 |
 */
 
+/**------------------------------- Auth Routes --------------------------------*/
 
-Route::get('new_ticket', 'TicketController@create');
-Route::post('new_ticket', 'TicketController@store');
+Route::get('/', [ 'uses' => 'AuthController@index']);
+Route::post('/authenticate',['uses' => 'AuthController@authenticate']);
+
+Route::group(['middleware'=>['auth.api:api']], function() {
+
+    Route::get('/logout', ['uses' => 'AuthController@logout']);
+    Route::get('/dashboard', ['uses' => 'DashboardController@dashboard']);
+
+});
+
