@@ -16,7 +16,7 @@
 Route::get('/', [ 'uses' => 'AuthController@index']);
 Route::post('/authenticate',['uses' => 'AuthController@authenticate']);
 
-Route::group(['middleware'=>['auth.api:api']], function() {
+Route::group(['middleware'=>['auth.api']], function() {
 
     Route::get('/logout', ['uses' => 'AuthController@logout']);
     Route::get('/dashboard', ['uses' => 'DashboardController@dashboard']);
